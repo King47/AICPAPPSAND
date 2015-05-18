@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f1d013"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <Button
+        android:id="@+id/bAhkam"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bi8"
+        android:textColor="#ffffff"
+        android:layout_weight="0.16"
+        android:textSize="25dp"
+        android:text="من أحكام الصيام" />
+    
+    <Button
+        android:id="@+id/bKunuz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bi8"
+        android:text="كنوز رمضان"
+        android:textSize="25dp"
+        android:layout_weight="0.16"
+        android:textColor="#ffffff" />
+    
+    <Button
+        android:id="@+id/bAll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bi8"
+        android:layout_weight="0.16"
+        android:text="Calendar" />
+    
+    <Button
+        android:id="@+id/bMus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bi8"
+        android:layout_weight="0.16"
+        android:textSize="25dp"
+        android:text="رمضان عاد من جديد" />
+
+    <Button
+        android:id="@+id/bSet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bi8"
+        android:layout_weight="0.16"
+        android:text="Settings" />
+
+    <Button
+        android:id="@+id/bInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bi8"
+        android:layout_weight="0.16"
+        android:text="More Info" />
+
+</LinearLayout>

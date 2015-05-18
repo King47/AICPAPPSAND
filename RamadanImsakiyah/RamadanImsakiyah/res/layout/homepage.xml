@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@android:color/white" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="#20b2aa"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="لا يفطر"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="#20b2aa"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="يفطر"
+            android:textColor="#ffffff"
+            android:textSize="19dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="ما الحكم؟"
+            android:textColor="#20b2aa"
+            android:textSize="25dp" />
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="أكل عمدًا ولو حبة عدس أو أقل"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="شرب عمدًا ولو قطرة ماء"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="تذوق الطعام دون ابتلاع شيء منه"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="دخن سيجارة"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="استقاء عمدًا بوضع إصبعه مثلًا في أقصى فمه بلع أم لم يبلع"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="قطر في الأذن أو الأنف"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="أكل أو شرب ناسيا"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="بالغ في المضمضة لغير عذر فدخل الماء إلى الجوف بغير إرادته"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="استنشق العطر والبخور وشم الورود"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="ابتلع البلغم من ظاهر الفم أي مما قبل مخرج الحاء"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="أدخل الإبرة تحت الجلد أو في العضل"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="طرأ حيض على المرأة ولو قبل الإفطار بقليل"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="جامع عمدًا ذاكرًا للصوم مختارًا عالمًا بالحرمة"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="جامع في نهار رمضان ناسيًا أنه صائم"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="✔"
+                        android:textColor="#ff2d1f"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="أخرج المني بالاستمناء أو المباشرة"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

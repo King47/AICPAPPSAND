@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="#20b2aa"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="الحكم"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="ما الحكم إذا؟"
+            android:textColor="#20b2aa"
+            android:textSize="25dp" />
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#e8f7f6"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="لم يصحّ صومه"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="أغمي عليه في نهار الصوم من الفجر إلى المغرب"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#bce7e5"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="صحّ صومه"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#198e88"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="أغمي عليه ولم يستغرق كل اليوم"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#e8f7f6"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="يمسك عن المفطرات إلى المغرب وعليه القضاء بعد رمضان"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="نام ليلًا ولم ينو الصيام ثم استيقظ بعد الفجر"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#bce7e5"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="تنوي الصيام وإن لم تغتسل لأن الاغتسال ليس شرطًا لصحة الصيام لكن لا بد من الاغتسال لأجل الصلاة"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#198e88"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="امرأة انقطع عنها الحيض قبل الفجر"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#e8f7f6"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="لا يجب عليه القضاء لكن وليُّهُ يأمره بالقضاء"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="صبي جاوز سبع سنوات وأفطر في رمضان مع قدرته على الصيام"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#bce7e5"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="لا يجب عليه الصوم ولا القضاء بل عليه الفدية عن كل يوم من رمضان وهي مُدٌّ من غالب قوت البلد يدفعها يومًا بيوم"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#198e88"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="عجوز أو مريض مرضًا لا يرجى شفاؤه لم يصم رمضان خوفا من التلف"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#e8f7f6"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="عليه القضاء حين يشفى"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="مريض يرجى شفاؤه لم يصم رمضان بعذر المرض الشديد"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#bce7e5"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="يصبر وليس له أن يُفطر"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#198e88"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="أصابه جوع أو عطش من الصيام أو دُعي إلى الطعام"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#e8f7f6"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="فسد صومه ووجب عليه الدخول في الإسلام بالنطق بالشهادتين بنية الدخول في الإسلام، وعليه القضاء فورًا بعد يوم العيد"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#20b2aa"
+                        android:gravity="center"
+                        android:padding="20dip"
+                        android:text="وقع في الكفر في نهار الصوم كمن سبّ الله أو نسب العجز والضعف إليه أو سب نبيا أو نقّصه أو رمى المصحف في القاذورات أو ورقة عليها علم شرعي أو اعتقد أن الله جسم أو ضوء أو أنه ساكن في السماء أو أنه جالس على العرش"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

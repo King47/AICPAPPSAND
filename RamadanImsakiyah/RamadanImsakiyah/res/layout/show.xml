@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d9eee1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewImpo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#20b2aa"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="20dp" />
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/white"
+                        android:gravity="center_vertical"
+                        android:shrinkColumns="*"
+                        android:stretchColumns="*" >
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" >
+
+                            <TextView
+                                android:id="@+id/text1"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#20b2aa"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="hello"
+                                android:textColor="@android:color/white"
+                                android:textSize="30dp" />
+
+                            <TextView
+                                android:id="@+id/text2"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#20b2aa"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="الإمساك"
+                                android:textColor="@android:color/white"
+                                android:textSize="30dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" >
+
+                            <TextView
+                                android:id="@+id/text3"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#d9eee1"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="hello"
+                                android:textColor="@android:color/black"
+                                android:textSize="30dp" />
+
+                            <TextView
+                                android:id="@+id/text4"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#d9eee1"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="الفجر"
+                                android:textColor="@android:color/black"
+                                android:textSize="30dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" >
+
+                            <TextView
+                                android:id="@+id/text13"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#d9eee1"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="hello"
+                                android:textColor="@android:color/black"
+                                android:textSize="30dp" />
+
+                            <TextView
+                                android:id="@+id/text14"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#d9eee1"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="الشروق"
+                                android:textColor="@android:color/black"
+                                android:textSize="30dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" >
+
+                            <TextView
+                                android:id="@+id/text5"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#d9eee1"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="hello"
+                                android:textColor="@android:color/black"
+                                android:textSize="30dp" />
+
+                            <TextView
+                                android:id="@+id/text6"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#d9eee1"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="الظهر"
+                                android:textColor="@android:color/black"
+                                android:textSize="30dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" >
+
+                            <TextView
+                                android:id="@+id/text7"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#d9eee1"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="hello"
+                                android:textColor="@android:color/black"
+                                android:textSize="30dp" />
+
+                            <TextView
+                                android:id="@+id/text8"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#d9eee1"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="العصر"
+                                android:textColor="@android:color/black"
+                                android:textSize="30dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" >
+
+                            <TextView
+                                android:id="@+id/text9"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#20b2aa"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="hello"
+                                android:textColor="@android:color/white"
+                                android:textSize="30dp" />
+
+                            <TextView
+                                android:id="@+id/text10"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#20b2aa"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="المغرب"
+                                android:textColor="@android:color/white"
+                                android:textSize="30dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" >
+
+                            <TextView
+                                android:id="@+id/text11"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#d9eee1"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="hello"
+                                android:textColor="@android:color/black"
+                                android:textSize="30dp" />
+
+                            <TextView
+                                android:id="@+id/text12"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#d9eee1"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text="العشاء"
+                                android:textColor="@android:color/black"
+                                android:textSize="30dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal" >
+
+                            <TextView
+                                android:id="@+id/text111"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#d9eee1"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text=""
+                                android:textColor="@android:color/black"
+                                android:textSize="30dp" />
+
+                            <TextView
+                                android:id="@+id/text212"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25"
+                                android:background="#d9eee1"
+                                android:gravity="center"
+                                android:padding="20dip"
+                                android:text=""
+                                android:textColor="@android:color/black"
+                                android:textSize="30dp" />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#304036"
+                android:padding="20dip"
+                android:text="Click here for timing other than Beirut"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

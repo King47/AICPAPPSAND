@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:dialogTitle="View"
+        android:entries="@array/list"
+        android:entryValues="@array/lValues"
+        android:key="list"
+        android:summary="set the Layout"
+        android:title="View" />
+    
+    <ListPreference
+        android:dialogTitle="Language"
+        android:entries="@array/listy"
+        android:entryValues="@array/lValuesy"
+        android:key="listy"
+        android:summary="set the Language"
+        android:title="Language" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkbox"
+        android:summary="for the starting page"
+        android:title="Intro Sound" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="check"
+        android:summary="Toggle On Or Off"
+        android:title="Athan" />
+    
+     <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checko"
+        android:summary="Toggle Timing shuffle"
+        android:title="Shuffle Pictures" />
+</PreferenceScreen>
